@@ -1,0 +1,33 @@
+.HamburgerButton {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-right: 1rem;
+}
+
+.HamburgerButton div {
+  background-color: white;
+  height: 0.2rem;
+  margin: 8px 0;
+  display: block;
+}
+
+.HamburgerButton div:nth-child(1) {
+  width: 90%;
+}
+
+.HamburgerButton div:nth-child(2) {
+  width: 75%;
+}
+
+.HamburgerButton div:nth-child(3) {
+  width: 60%;
+}
+
+@media (min-width: 40rem) {
+  .HamburgerButton {
+    display: none;
+  }
+}

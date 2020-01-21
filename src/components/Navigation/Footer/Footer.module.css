@@ -1,0 +1,37 @@
+.Footer {
+  height: 6rem;
+  color: white;
+  text-align: center;
+  background: black;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Footer p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.logosHolder {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logosHolder li {
+  width: 25px;
+  height: 25px;
+  list-style: none;
+  fill: white;
+  cursor: pointer;
+  margin: 0 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.NavigationItem {
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.NavigationItem a {
+  text-decoration: none;
+  color: black;
+  padding: 0.2rem 0;
+}
+
+.NavigationItem button {
+  display: block;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 1rem;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.NavigationItem button:active,
+.NavigationItem button:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active {
+  color: #0055fe;
+  border-bottom: 1px solid white;
+}
+
+.Icon {
+  width: 40px;
+  height: 40px;
+  list-style: none;
+  fill: black;
+  cursor: pointer;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  .NavigationItem {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .NavigationItem a {
+    color: white;
+  }
+
+  .NavigationItem button {
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .NavigationItem button:active,
+  .NavigationItem button:hover {
+    background-color: darkgray;
+    color: white;
+  }
+}

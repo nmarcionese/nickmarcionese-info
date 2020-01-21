@@ -1,0 +1,30 @@
+.Intro {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+
+  margin-top: 3rem !important;
+}
+
+.IntroItems {
+  max-width: 40rem;
+}
+
+.IntroH4 {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 100;
+}
+
+.IntroH1 {
+  font-size: 3rem;
+  margin: 1rem auto;
+  color: #0055fe;
+  font-weight: bold;
+}
+
+.IntroH2 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

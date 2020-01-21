@@ -1,0 +1,61 @@
+.Experience {
+  margin-top: 6rem;
+}
+
+.expSec__headerThree {
+  color: #0055fe;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.expSec__Items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.expSec__expDiv {
+  padding: 1rem;
+  
+}
+
+.expSec__headerFive {
+  color: white;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.expSec__headerSix {
+  color: white;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.expSec__spanBlue {
+  color: #0055fe;
+  font-weight: bold;
+}
+
+.FlexStart{
+    align-items: flex-start;
+}
+
+@media (min-width: 40rem) {
+  .Experience {
+    margin-top: 3rem;
+  }
+
+  .expSec__headerThree {
+    text-align: center;
+  }
+  .expSec__Items {
+    margin: 0 1.5rem;
+    align-self: center;
+  }
+}
