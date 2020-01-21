@@ -30,6 +30,7 @@ class Layout extends Component {
   };
 
   layoutClickHandler = event => {
+    console.log('click');
     window.open(event.currentTarget.dataset.url, 'target=_blank');
   };
 
@@ -43,7 +44,10 @@ class Layout extends Component {
         />
         <SideDraw
           resumeClicked={event => this.layoutClickHandler(event)}
-          resumeURL={this.state.linkedinURL}
+          sideBarClicks={event => this.layoutClickHandler(event)}
+          resumeURL={this.state.resumeURL}
+          githubURL={this.state.githubURL}
+          linkedinURL={this.state.linkedinURL}
           className={this.state.showMobileNavHandler ? 'Open' : 'Close'}
           show={this.state.showMobileNav}
           clicked={this.closeSideDrawHandler}

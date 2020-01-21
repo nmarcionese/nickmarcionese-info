@@ -44,7 +44,6 @@ class PortfolioSection extends Component {
   }
 
   projectsClickHandler = (event, url) => {
-    console.dir(event.currentTarget.dataset.url);
     window.open(event.currentTarget.dataset.url, 'target=_blank');
   };
 
@@ -56,7 +55,7 @@ class PortfolioSection extends Component {
         console.log(project);
         return (
           <ProjectHolder
-            clicked={event => this.state.clicked(event)}
+            clicked={event => this.projectsClickHandler(event)}
             externalURL={project.externalURL}
             githubURL={project.githubURL}
             imageURL={project.image}

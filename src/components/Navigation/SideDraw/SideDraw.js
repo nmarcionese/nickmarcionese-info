@@ -25,12 +25,14 @@ const SideDraw = props => {
             resumeURL={props.resumeURL}
           >
             <GithubLogo
+              sideBarClicks={event => props.sideBarClicks(event)}
               key={'Mobile_Github_Logo'}
-              landingURL={props.landingURL}
+              landingURL={props.githubURL}
             />
             <LinkedinLogo
+              sideBarClicks={event => props.sideBarClicks(event)}
               key={'Mobile_Linkedin_Logo'}
-              landingURL={props.landingURL}
+              landingURL={props.linkedinURL}
             />
           </NavItems>
         </nav>

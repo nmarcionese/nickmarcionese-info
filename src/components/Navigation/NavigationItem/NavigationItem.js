@@ -29,7 +29,11 @@ const NavigationItem = props => {
 
   if (props.type === 'icon') {
     listItem = (
-      <li className={[classes.NavigationItem, classes.Icon].join(' ')}>
+      <li
+        onClick={event => props.sideBarClicks(event)}
+        data-url={props.landingURL}
+        className={[classes.NavigationItem, classes.Icon].join(' ')}
+      >
         {props.children}
       </li>
     );
