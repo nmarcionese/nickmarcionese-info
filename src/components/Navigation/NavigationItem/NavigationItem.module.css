@@ -28,9 +28,13 @@
 }
 
 .NavigationItem a:hover,
-.NavigationItem a:active {
+.NavigationItem a:active{
   color: #0055fe;
   border-bottom: 1px solid white;
+}
+
+.NavigationItem a.Active {
+  color: #0055fe;
 }
 
 .Icon {
@@ -51,6 +55,18 @@
 
   .NavigationItem a {
     color: white;
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    color: #0055fe;
+    border-bottom: 1px solid white;
+  }
+
+  .NavigationItem a.Active {
+    color: #0055fe;
+    border-bottom: 1px solid white;
   }
 
   .NavigationItem button {

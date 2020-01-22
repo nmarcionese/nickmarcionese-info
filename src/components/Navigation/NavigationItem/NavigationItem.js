@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import classes from './NavigationItem.module.css';
 import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
 
@@ -9,7 +9,7 @@ const NavigationItem = props => {
   if (props.link) {
     listItem = (
       <li onClick={props.clicked} className={classes.NavigationItem}>
-        <Link to={props.link}>{props.title}</Link>
+        <NavLink to={props.link} activeClassName={classes.Active} exact>{props.title}</NavLink>
       </li>
     );
   }
